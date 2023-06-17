@@ -1,0 +1,10 @@
+.main{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(219, 250, 195);
+    margin: 12px;
+    padding: 20px;
+    width: max-content;
+    border:1px solid black;
+    border-radius: .5rem;
+}

@@ -1,0 +1,11 @@
+<div class="main">
+    <h2>This is parent component</h2>
+    <button (click)="increment()">Increment</button>
+
+    <p>this is the value of parent component <strong>{{parentvalue}}</strong></p>
+
+    <p>THis is the value from child component accessed after listening event <strong>{{fromChild}}</strong> </p>
+
+</div>
+
+<app-child [fromParent]="parentvalue"  (emitter)="decrement($event)"></app-child>

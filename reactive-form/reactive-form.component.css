@@ -1,0 +1,38 @@
+.form{
+    padding: 20px;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 237, 221);
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    max-width: 400px;
+    color: darkblue;
+}
+
+.form >div{
+    padding: 20px;
+    position: relative;
+}
+
+.form > div label{
+    padding: 12px;
+    
+}
+
+.form>div>input{
+    border:none;
+    padding: 7px 12px;
+    border-radius: 1.2rem;
+    width: 200px;
+}
+
+
+.invalid{
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+
+}
